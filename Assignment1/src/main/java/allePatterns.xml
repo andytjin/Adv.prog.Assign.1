@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Patterns>
+    <p>
+        <nm>Factory Method</nm>
+        <sc>Class</sc>
+        <cg>
+            <naam>Creational</naam>
+        </cg>
+        <ct>allows the sub-classes to choose the type of objects to create.</ct>
+        <pb>When a class doesn't know what sub-classes will be required to create</pb>
+        <di>
+            <fileName>/Images/Factory Method.JPG</fileName>
+        </di>
+        <sol>Create a abstract class where other sub-classes can extend from</sol>
+        <con>when you don't need sub-classes it can cause redundancy </con>
+        <concequences>when you don't need sub-classes it can cause redundancy </concequences>
+        <context>allows the sub-classes to choose the type of objects to create.</context>
+        <name>Factory Method</name>
+        <problem>When a class doesn't know what sub-classes will be required to create</problem>
+        <scope>Class</scope>
+        <solution>Create a abstract class where other sub-classes can extend from</solution>
+    </p>
+    <p>
+        <nm>Builder</nm>
+        <sc>Object</sc>
+        <cg>
+            <naam>Creational</naam>
+        </cg>
+        <ct>construct a complex object from simple objects using step-by-step approach</ct>
+        <pb>It is mostly used when object can't be created in single step like in the de-serialization of a complex object.</pb>
+        <di>
+            <fileName>/Images/Builder.JPG</fileName>
+        </di>
+        <sol>Use interfaces and sub-classes where its needed</sol>
+        <con>Making a lot of unnecessary classes</con>
+        <concequences>Making a lot of unnecessary classes</concequences>
+        <context>construct a complex object from simple objects using step-by-step approach</context>
+        <name>Builder</name>
+        <problem>It is mostly used when object can't be created in single step like in the de-serialization of a complex object.</problem>
+        <scope>Object</scope>
+        <solution>Use interfaces and sub-classes where its needed</solution>
+    </p>
+    <p>
+        <nm>Adapter </nm>
+        <sc>Class</sc>
+        <cg>
+            <naam>Structural</naam>
+        </cg>
+        <ct>converts the interface of a class into another interface that a client wants</ct>
+        <pb>Two entities want to work together but there is an interface mismatch. </pb>
+        <di>
+            <fileName>/Images/Adapter.JPG</fileName>
+        </di>
+        <sol>Make a Adapter interface</sol>
+        <con>Wrting extra code while it's unnecessary </con>
+        <concequences>Wrting extra code while it's unnecessary </concequences>
+        <context>converts the interface of a class into another interface that a client wants</context>
+        <name>Adapter </name>
+        <problem>Two entities want to work together but there is an interface mismatch. </problem>
+        <scope>Class</scope>
+        <solution>Make a Adapter interface</solution>
+    </p>
+    <p>
+        <nm>Proxy</nm>
+        <sc>Object</sc>
+        <cg>
+            <naam>Structural</naam>
+        </cg>
+        <ct>provides the control for accessing the original object</ct>
+        <pb>When a object uses a lot of memory or the object isn't secured enough</pb>
+        <di>
+            <fileName>/Images/Proxy.JPG</fileName>
+        </di>
+        <sol>Create a proxy class </sol>
+        <con>Introduces another abstraction level for an object</con>
+        <concequences>Introduces another abstraction level for an object</concequences>
+        <context>provides the control for accessing the original object</context>
+        <name>Proxy</name>
+        <problem>When a object uses a lot of memory or the object isn't secured enough</problem>
+        <scope>Object</scope>
+        <solution>Create a proxy class </solution>
+    </p>
+    <p>
+        <nm>Template Method</nm>
+        <sc>Class</sc>
+        <cg>
+            <naam>Behavioral</naam>
+        </cg>
+        <ct> an abstract class exposes defined way(s)/template(s) to execute its methods</ct>
+        <pb>multiple classes that uses the same methods</pb>
+        <di>
+            <fileName>/Images/Template Method.JPG</fileName>
+        </di>
+        <sol>make a abstract class where the sub-classes can overide the methods</sol>
+        <con>Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class</con>
+        <concequences>Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class</concequences>
+        <context> an abstract class exposes defined way(s)/template(s) to execute its methods</context>
+        <name>Template Method</name>
+        <problem>multiple classes that uses the same methods</problem>
+        <scope>Class</scope>
+        <solution>make a abstract class where the sub-classes can overide the methods</solution>
+    </p>
+    <p>
+        <nm>Chain of Responsibility</nm>
+        <sc>Object</sc>
+        <cg>
+            <naam>Behavioral</naam>
+        </cg>
+        <ct>In chain of responsibility, sender sends a request to a chain of objects. The request can be handled by any object in the chain.</ct>
+        <pb>if your code has a lot of coupling and a hierarchy structure</pb>
+        <di>
+            <fileName>/Images/Chain of Responsibility.JPG</fileName>
+        </di>
+        <sol>make multiple classes that can receive the request and If one object cannot handle the request then it passes the same to the next receiver and so on.</sol>
+        <con>if its unnecessary it can cause extra code</con>
+        <concequences>if its unnecessary it can cause extra code</concequences>
+        <context>In chain of responsibility, sender sends a request to a chain of objects. The request can be handled by any object in the chain.</context>
+        <name>Chain of Responsibility</name>
+        <problem>if your code has a lot of coupling and a hierarchy structure</problem>
+        <scope>Object</scope>
+        <solution>make multiple classes that can receive the request and If one object cannot handle the request then it passes the same to the next receiver and so on.</solution>
+    </p>
+    <PatternList>
+        <nm>Factory Method</nm>
+        <sc>Class</sc>
+        <cg>
+            <naam>Creational</naam>
+        </cg>
+        <ct>allows the sub-classes to choose the type of objects to create.</ct>
+        <pb>When a class doesn't know what sub-classes will be required to create</pb>
+        <di>
+            <fileName>/Images/Factory Method.JPG</fileName>
+        </di>
+        <sol>Create a abstract class where other sub-classes can extend from</sol>
+        <con>when you don't need sub-classes it can cause redundancy </con>
+        <concequences>when you don't need sub-classes it can cause redundancy </concequences>
+        <context>allows the sub-classes to choose the type of objects to create.</context>
+        <name>Factory Method</name>
+        <problem>When a class doesn't know what sub-classes will be required to create</problem>
+        <scope>Class</scope>
+        <solution>Create a abstract class where other sub-classes can extend from</solution>
+    </PatternList>
+    <PatternList>
+        <nm>Builder</nm>
+        <sc>Object</sc>
+        <cg>
+            <naam>Creational</naam>
+        </cg>
+        <ct>construct a complex object from simple objects using step-by-step approach</ct>
+        <pb>It is mostly used when object can't be created in single step like in the de-serialization of a complex object.</pb>
+        <di>
+            <fileName>/Images/Builder.JPG</fileName>
+        </di>
+        <sol>Use interfaces and sub-classes where its needed</sol>
+        <con>Making a lot of unnecessary classes</con>
+        <concequences>Making a lot of unnecessary classes</concequences>
+        <context>construct a complex object from simple objects using step-by-step approach</context>
+        <name>Builder</name>
+        <problem>It is mostly used when object can't be created in single step like in the de-serialization of a complex object.</problem>
+        <scope>Object</scope>
+        <solution>Use interfaces and sub-classes where its needed</solution>
+    </PatternList>
+    <PatternList>
+        <nm>Adapter </nm>
+        <sc>Class</sc>
+        <cg>
+            <naam>Structural</naam>
+        </cg>
+        <ct>converts the interface of a class into another interface that a client wants</ct>
+        <pb>Two entities want to work together but there is an interface mismatch. </pb>
+        <di>
+            <fileName>/Images/Adapter.JPG</fileName>
+        </di>
+        <sol>Make a Adapter interface</sol>
+        <con>Wrting extra code while it's unnecessary </con>
+        <concequences>Wrting extra code while it's unnecessary </concequences>
+        <context>converts the interface of a class into another interface that a client wants</context>
+        <name>Adapter </name>
+        <problem>Two entities want to work together but there is an interface mismatch. </problem>
+        <scope>Class</scope>
+        <solution>Make a Adapter interface</solution>
+    </PatternList>
+    <PatternList>
+        <nm>Proxy</nm>
+        <sc>Object</sc>
+        <cg>
+            <naam>Structural</naam>
+        </cg>
+        <ct>provides the control for accessing the original object</ct>
+        <pb>When a object uses a lot of memory or the object isn't secured enough</pb>
+        <di>
+            <fileName>/Images/Proxy.JPG</fileName>
+        </di>
+        <sol>Create a proxy class </sol>
+        <con>Introduces another abstraction level for an object</con>
+        <concequences>Introduces another abstraction level for an object</concequences>
+        <context>provides the control for accessing the original object</context>
+        <name>Proxy</name>
+        <problem>When a object uses a lot of memory or the object isn't secured enough</problem>
+        <scope>Object</scope>
+        <solution>Create a proxy class </solution>
+    </PatternList>
+    <PatternList>
+        <nm>Template Method</nm>
+        <sc>Class</sc>
+        <cg>
+            <naam>Behavioral</naam>
+        </cg>
+        <ct> an abstract class exposes defined way(s)/template(s) to execute its methods</ct>
+        <pb>multiple classes that uses the same methods</pb>
+        <di>
+            <fileName>/Images/Template Method.JPG</fileName>
+        </di>
+        <sol>make a abstract class where the sub-classes can overide the methods</sol>
+        <con>Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class</con>
+        <concequences>Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class</concequences>
+        <context> an abstract class exposes defined way(s)/template(s) to execute its methods</context>
+        <name>Template Method</name>
+        <problem>multiple classes that uses the same methods</problem>
+        <scope>Class</scope>
+        <solution>make a abstract class where the sub-classes can overide the methods</solution>
+    </PatternList>
+    <PatternList>
+        <nm>Chain of Responsibility</nm>
+        <sc>Object</sc>
+        <cg>
+            <naam>Behavioral</naam>
+        </cg>
+        <ct>In chain of responsibility, sender sends a request to a chain of objects. The request can be handled by any object in the chain.</ct>
+        <pb>if your code has a lot of coupling and a hierarchy structure</pb>
+        <di>
+            <fileName>/Images/Chain of Responsibility.JPG</fileName>
+        </di>
+        <sol>make multiple classes that can receive the request and If one object cannot handle the request then it passes the same to the next receiver and so on.</sol>
+        <con>if its unnecessary it can cause extra code</con>
+        <concequences>if its unnecessary it can cause extra code</concequences>
+        <context>In chain of responsibility, sender sends a request to a chain of objects. The request can be handled by any object in the chain.</context>
+        <name>Chain of Responsibility</name>
+        <problem>if your code has a lot of coupling and a hierarchy structure</problem>
+        <scope>Object</scope>
+        <solution>make multiple classes that can receive the request and If one object cannot handle the request then it passes the same to the next receiver and so on.</solution>
+    </PatternList>
+</Patterns>

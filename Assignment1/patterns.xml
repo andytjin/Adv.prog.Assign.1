@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pattern>
+    <category>
+        <naam>Creational</naam>
+    </category>
+    <concequences>Consequences of the builderpattern</concequences>
+    <context>Context Pattern builder</context>
+    <diagram>
+        <fileName>C:\Users\andy\Documents\NetBeansProjects\PaFassignment2\PaFass2\src\main\java\DiagramIMG\Builder.JPG</fileName>
+    </diagram>
+    <name>Builder Pattern</name>
+    <problem>Problem Pattern Builder</problem>
+    <scope>Object</scope>
+    <solution>Solution Pattern Builder</solution>
+</pattern>

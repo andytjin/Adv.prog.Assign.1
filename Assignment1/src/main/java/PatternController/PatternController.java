@@ -22,7 +22,7 @@ import java.util.ListIterator;
  */
 public class PatternController {
 
-    private XML xml = new XML();
+    private final XML xml = new XML();
     private String filePath, pName;
     private List<Pattern> patternlist = new ArrayList<Pattern>();
     private static PatternController instance = new PatternController();

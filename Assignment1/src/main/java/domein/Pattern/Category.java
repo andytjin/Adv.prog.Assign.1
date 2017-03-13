@@ -19,7 +19,8 @@ public class Category {
     public String getNaam(){
         return naam;
     }
-    public void setNaam(String n){
+    
+    public void setNaam(String n) {
         naam = n;
     }
     

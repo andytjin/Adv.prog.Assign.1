@@ -185,7 +185,6 @@ public class controllerGUI extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         PatternController pC = PatternController.getInstance();
         List<Pattern> patternlist = new ArrayList<Pattern>();
-        XML xml = new XML();
         JFileChooser jF = new JFileChooser();
         jF.setDialogTitle("Select your XML file");
         FileNameExtensionFilter xmlFilter = new FileNameExtensionFilter("XML files", "xml");

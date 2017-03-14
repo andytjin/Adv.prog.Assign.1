@@ -166,7 +166,7 @@ public class controllerGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        if (pathTextField.getText().equals("")) {
+        if ("".equals(pathTextField.getText())) {
             jDialog2.setVisible(true);
         } else {
             selectorGUI sGui = new selectorGUI();
